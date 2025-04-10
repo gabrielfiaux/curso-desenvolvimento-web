@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+a:link, a:visited{
+    color: white;
+    
+}
+a:hover{background-color: white;}
+
+.white{
+    color: white;
+}
+
+
+
+#top{
+    text-align: center;
+    background-color: #f7b600;
+    padding: 15px;
+}
+#logo, #options{
+    padding: 10px;
+}
+
+
+
+#mid{
+   
+    width: 920px;
+    margin: 0 auto ;
+}
+
+#post{
+    float: left;
+    width: 660px;
+  
+    a:link, :visited{color: #f7b600;}
+    a:hover{background-color: transparent;}
+
+}
+
+.post{
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+#side-menu{
+    background-color: red; 
+    float: right ;   
+    width: 240px;
+
+}
+
+#bot{
+    text-align: center;
+    clear: both;
+    background-color: grey;
+    
+}
