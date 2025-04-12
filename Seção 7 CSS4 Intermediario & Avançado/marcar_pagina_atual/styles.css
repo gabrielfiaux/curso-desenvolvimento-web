@@ -51,11 +51,11 @@ ul a:hover{
     color: #fff;
 }
 /* No ID # o link . rece as caracteristas [...] que é igula ao hover então cria o efeito de seleção permante*/
-#home       .home a,
-#sobre      .sobre a,
-#servicos   .servicos a,
-#noticias   .noticias a,
-#contato    .contato a{
+#home     #nav_bar    .home a,
+#sobre    #nav_bar    .sobre a,
+#servicos #nav_bar    .servicos a,
+#noticias #nav_bar    .noticias a,
+#contato  #nav_bar    .contato a{
     background-position: right bottom;
     background-color: #f99200;
     color: #fff;
