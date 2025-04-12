@@ -1,62 +1,40 @@
-/* 
+ul#nav_bar {
+margin: 0;
+padding: 0;
+list-style: none;
+width: 720px;
+background: #159cb0 url(img/fundo-horizontal.png) repeat-x;
+float: left
+}
 
-div#nav_bar{
-
-    ul{
+ul#nav_bar li {
     
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    float: left;
 }
 
-li{
-    
-    padding: 20px;
-    background: url(img/seta.png) no-repeat left center;
-}
-
-  
-    border: 1px, solid, red ;
-}
-*/
-ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
-   
-}
-/* Animação ao passar o mouse em cima... MANEIRO 🤩*/
-ul a{
-    width: 200px;
-    height: 40px;
-
-    
-
+ul#nav_bar a{
     display: block;
-
-    color: #000;
+    padding: 0 2em;
+    line-height: 2em;
     text-decoration: none;
-    text-indent: 40px;
-    line-height: 40px;
+    color: #fff;
+    background: url(img/divisor.png) repeat-y;
+}
+ul#nav_bar .home.primeiro a{background: none;}
 
-    /*border: 1px solid red;*/
-
-    background: #f7b600 url(img/menu.png) no-repeat left bottom ;
+ul#nav_bar a:hover{
+    color:#085962;
+    background: #44cade;
 }
 
-ul a:hover{
-    background-position: right bottom;
-    background-color: #f99200;
-    color: #fff;
-}
-/* No ID # o link . rece as caracteristas [...] que é igula ao hover então cria o efeito de seleção permante*/
-#home     #nav_bar    .home a,
-#sobre    #nav_bar    .sobre a,
-#servicos #nav_bar    .servicos a,
-#noticias #nav_bar    .noticias a,
-#contato  #nav_bar    .contato a{
-    background-position: right bottom;
-    background-color: #f99200;
-    color: #fff;
+/*Marcar item*/
+#home #nav_bar .home a,
+#sobre #nav_bar .sobre a,
+#servicos #nav_bar .servicos a,
+#noticias #nav_bar .noticias a,
+#contato #nav_bar .contato a
+{
+     background-position: right bottom;
+     color:#085962;
+     background: #44cade;
 }
