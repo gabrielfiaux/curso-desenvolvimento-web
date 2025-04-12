@@ -45,7 +45,17 @@ ul a{
     background: #f7b600 url(img/menu.png) no-repeat left bottom ;
 }
 
-ul a:hover {
+ul a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+/* No ID # o link . rece as caracteristas [...] que é igula ao hover então cria o efeito de seleção permante*/
+#home       .home a,
+#sobre      .sobre a,
+#servicos   .servicos a,
+#noticias   .noticias a,
+#contato    .contato a{
     background-position: right bottom;
     background-color: #f99200;
     color: #fff;
